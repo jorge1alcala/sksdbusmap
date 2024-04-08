@@ -44,35 +44,70 @@ Goal: Create a Google Map application that displays the real-time locations of s
 API that provides real-time school bus location data
 Technical Implementation:
 
+##
+
 1. Set up Google Cloud Platform (GCP) Project:
 
 Create a new GCP project and enable the Google Maps Platform API.
-Obtain an API key for the project. 2. Create a Google Map:
+Obtain an API key for the project.
+
+##
+
+2. Create a Google Map:
 
 Use the Google Maps JavaScript API to create a map centered on the Salem Keizer School District area.
-Add a layer to the map to display the bus locations. 3. Fetch Bus Data from API:
+Add a layer to the map to display the bus locations.
+
+##
+
+3. Fetch Bus Data from API:
 
 Make API calls to retrieve real-time bus location data.
-Parse the data and extract relevant information such as bus number, time, and route. 4. Display Bus Locations on Map:
+Parse the data and extract relevant information such as bus number, time, and route.
+
+##
+
+4. Display Bus Locations on Map:
 
 Use the Google Maps API to create markers for each bus location.
 Set the marker position based on the latitude and longitude provided by the API.
-Customize the marker icon to represent a school bus. 5. Implement Search Functionality:
+Customize the marker icon to represent a school bus.
+
+##
+
+5.  Implement Search Functionality:
 
 Create a search bar that allows users to enter a bus number or route.
 Use the Google Maps API's Geocoding service to convert the search query into a location.
-Filter the bus data to find the matching bus and display its location on the map. 6. Display Bus Details:
+Filter the bus data to find the matching bus and display its location on the map.
+
+##
+
+6. Display Bus Details:
 
 When a user clicks on a bus marker, display a pop-up window with details such as:
 Bus number
 Current time
-Route information 7. Manage Bus Updates:
+Route information
+
+##
+
+7. Manage Bus Updates:
 
 Set up a mechanism to periodically fetch updated bus location data from the API.
 Update the bus markers on the map in real-time to reflect the new locations.
 Additional Features:
 
 Zoom and Pan Controls: Allow users to zoom in and out of the map and pan around the area.
-Legend: Include a legend on the map to explain the different marker colors or icons.
-Traffic Layer: Add a traffic layer to the map to provide users with information about traffic conditions.
-Mobile Optimization: Optimize the application for mobile devices to ensure a seamless user experience on smartphones and tablets.
+
+## Legend:
+
+Include a legend on the map to explain the different marker colors or icons.
+
+## Traffic Layer:
+
+Add a traffic layer to the map to provide users with information about traffic conditions.
+
+## Mobile Optimization:
+
+Optimize the application for mobile devices to ensure a seamless user experience on smartphones and tablets.
